@@ -1,0 +1,49 @@
+:root {
+  --bg-canvas: #f4f5f2;
+  --bg-card: #ffffff;
+  --bg-card-subtle: #f8f9f7;
+  --border-subtle: #e7e9e4;
+  --forest: #155e34;
+  --forest-soft: #e6f0ea;
+  --emerald: #00c853;
+  --emerald-soft: #dcfce7;
+  --amber: #ffb020;
+  --amber-soft: #fef3c7;
+  --coral: #ef4444;
+  --coral-soft: #fee2e2;
+  --text-primary: #181c19;
+  --text-secondary: #636b65;
+  --text-muted: #939b95;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 999px;
+}
